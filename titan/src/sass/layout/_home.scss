@@ -1,0 +1,240 @@
+/* TITLE SECTION */
+.title_section {
+  padding: 5% 15%;
+}
+
+#title {
+  text-align: center;
+  background: $clr-yellow-one;
+}
+
+#title p {
+  font-family: $clr-font-one;
+  font-size: 2.25rem;
+  font-weight: 400;
+}
+
+.titan {
+  font-family: $clr-font-two;
+  font-size: 4rem;
+  font-weight: 500;
+  margin-bottom: 0;
+  /* animation */
+  animation: slideFromLeft 5s ease-in-out 1;
+}
+
+.thanos {
+  height: auto;
+  width: 600px;
+  /* animation */
+  animation: slideFromRight 5s ease-in-out 1;
+}
+
+/* PROLOGUE */
+#prologue {
+  background: $clr-white;
+  padding: 5% 16%;
+  line-height: 1.5;
+}
+
+#prologue img {
+  width: 125px;
+  margin: 20px 0;
+}
+
+.mask {
+  text-align: center;
+  animation: bounce 2s ease infinite;
+}
+
+/* POWER */
+#power {
+  background: $clr-yellow-three;
+  padding: 5% 16%;
+  line-height: 1.5;
+}
+
+/* SOUL */
+#soul {
+  background: $clr-white;
+  padding: 5% 16%;
+  line-height: 1.5;
+}
+
+/* TIME */
+#time {
+  background: $clr-yellow-three;
+  padding: 5% 16%;
+  line-height: 1.5;
+}
+
+/* SPACE */
+#space {
+  background: $clr-white;
+  padding: 5% 16%;
+  line-height: 1.5;
+}
+
+/* REALITY */
+#reality {
+  background: $clr-yellow-three;
+  padding: 5% 16%;
+  line-height: 1.5;
+}
+
+/* MIND */
+#mind {
+  background: $clr-white;
+  padding: 5% 16%;
+  line-height: 1.5;
+}
+
+/* EPILOGUE */
+#epilogue {
+  background: $clr-yellow-three;
+  padding: 5% 16%;
+  line-height: 1.5;
+}
+
+.photo_one {
+  border: $border;
+  width: 250px;
+  box-shadow: $dropshadow;
+}
+
+.photo_two {
+  border: $border;
+  width: 160px;
+  box-shadow: $dropshadow;
+  margin-top: 35px;
+}
+
+.section_title {
+  font-family: $clr-font-two;
+  font-size: 3rem;
+  font-weight: 500;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+.section_p {
+  font-family: $clr-font-one;
+  font-size: 1.14rem;
+  font-weight: 400;
+  text-align: left;
+}
+
+.gem img {
+  width: 160px;
+  margin: 20px 0;
+  animation: bounce 2s ease infinite;
+  filter: drop-shadow(7px 7px 4px #383837);
+}
+
+/* Float */
+.hvr-float {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-float:hover,
+.hvr-float:focus,
+.hvr-float:active {
+  -webkit-transform: translateY(-8px);
+  transform: translateY(-8px);
+}
+
+/* KEYFRAMES */
+@keyframes slideFromRight {
+  0% {
+    transform: translateX(100px);
+    opacity: 0;
+  }
+  50% {
+    transform: translateX(-200px);
+    opacity: 0.5;
+  }
+  75% {
+    transform: translateX(50px);
+    opacity: 0.75;
+  }
+  100% {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
+
+@keyframes slideFromLeft {
+  0% {
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+  50% {
+    transform: translateX(200px);
+    opacity: 0.5;
+  }
+  75% {
+    transform: translateX(-50px);
+    opacity: 0.75;
+  }
+  100% {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
+
+@keyframes bounce {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* MEDIA */
+@media only screen and (max-width: 1080px) {
+  .fa-bars {
+    animation: bounce 2s ease infinite;
+  }
+
+  .titan {
+    font-size: 3.3rem;
+  }
+
+  .thanos {
+    height: auto;
+    width: 315px;
+  }
+
+  .gem img {
+    width: 100px;
+    margin: 20px 0;
+    animation: bounce 2s ease infinite;
+    filter: drop-shadow(7px 7px 4px #383837);
+  }
+
+  .section_p {
+    font-size: 1.14rem;
+  }
+
+  .copyright {
+    font-size: 1rem;
+  }
+
+  .links a {
+    font-size: 1.1rem;
+  }
+}

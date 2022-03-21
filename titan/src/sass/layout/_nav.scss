@@ -1,0 +1,29 @@
+/* NAVBAR */
+.fa-bars {
+  color: $clr-purple-one;
+  font-size: 1.75rem;
+}
+
+.navbar {
+  padding: 0 0 4.5rem 0 !important;
+}
+
+.nav-item {
+  padding: 0 12px;
+  text-transform: uppercase;
+}
+
+.nav-link {
+  color: $clr-purple-one !important;
+  font-family: $clr-font-one;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.nav-link:hover {
+  background: $clr-purple-one;
+  color: $clr-yellow-one !important;
+  padding: 10px 15px !important;
+  /* border-bottom: 4px solid #7B88FF; */
+  /* color: #7B88FF !important; */
+}
