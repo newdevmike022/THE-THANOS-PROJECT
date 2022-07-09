@@ -38,10 +38,10 @@ const Footer = () => {
         </div>
       </div>
       <div className="col-lg-12">
-        <a href="https://github.com/newdevmike22" className="social-icon">
+        <a className="social hvr-float" href="https://github.com/newdevmike22">
           <i class="fab fa-github"></i>
         </a>
-        <a href="https://www.linkedin.com/in/michael-dodson-197231b9/" className="social-icon">
+        <a className="social hvr-float" href="https://www.linkedin.com/in/michael-dodson-197231b9/">
           <i class="fab fa-linkedin"></i>
         </a>
       </div>
