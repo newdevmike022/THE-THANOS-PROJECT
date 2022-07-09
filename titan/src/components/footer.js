@@ -32,23 +32,17 @@ const Footer = () => {
             </a>
           </p>
           <p className="copyright pt-3">
-            &copy; Sonicpress
-            <span> {today.getFullYear()}</span>. All Rights Reserved.
+            &copy; Mike Dodson
+            <span> {today.getFullYear()}</span>.
           </p>
         </div>
       </div>
       <div className="col-lg-12">
-        <a className="social hvr-float" href="#">
-          <i className="fab fa-instagram"></i>
+        <a href="https://github.com/newdevmike22" className="social-icon">
+          <i class="fab fa-github"></i>
         </a>
-        <a className="social hvr-float" href="#">
-          <i className="fab fa-pinterest-square"></i>
-        </a>
-        <a className="social hvr-float" href="#">
-          <i className="fab fa-facebook-square"></i>
-        </a>
-        <a className="social hvr-float" href="#">
-          <i className="fab fa-twitter-square"></i>
+        <a href="https://www.linkedin.com/in/michael-dodson-197231b9/" className="social-icon">
+          <i class="fab fa-linkedin"></i>
         </a>
       </div>
     </section>
